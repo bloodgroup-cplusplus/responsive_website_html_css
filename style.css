@@ -22,13 +22,17 @@ ol[role='list'] {
 html:focus-within {
   scroll-behavior: smooth;
 }
+html,body {
+  height:100%;
+  
+}
 
 /* Set core body defaults */
-body {
-  min-height: 100vh;
-  text-rendering: optimizeSpeed;
-  line-height: 1.5;
+body{
+  text-rendering:optimzeSpeed;
+  line-height:1.5;
 }
+
 
 /* A elements that don't have a class get default styles */
 a:not([class]) {
@@ -37,7 +41,8 @@ a:not([class]) {
 
 /* Make images easier to work with */
 img,
-picture {
+picture,
+svg {
   max-width: 100%;
   display: block;
 }
